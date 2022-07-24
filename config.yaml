@@ -1,0 +1,13 @@
+news_sites:
+  eluniversal:
+    url: https://www.eluniversal.com.co/
+    queries:
+      homepage_article_links: '.info a'
+      article_body: '.paragraph p'
+      article_title: '.titulo-interna'
+  elpais:
+    url: https://elpais.com/america-colombia/
+    queries:
+      homepage_article_links: '.c_t a'
+      article_body: ''
+      article_title: ''
